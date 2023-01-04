@@ -150,15 +150,14 @@ p{
         justify-content: center;
         align-items: center;
     
-        padding: 5px;
-        margin-bottom: 100px;
+        padding: 5px 5px;
     }
     
     /* common */
     .container{
         background-color: rgb(39, 2, 36);
         border-radius: 10px;
-        width: 350px;
+        width: 360px;
         height: 1990px;
         overflow: hidden;
     }
@@ -211,7 +210,7 @@ p{
     
     .border{
         border: 4px solid white;
-        width: 330px;
+        width: 340px;
         height: 2015px;
         z-index: 1000;
     
