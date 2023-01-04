@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+/* common */
+.container{
+    background-color: rgb(39, 2, 36);
+    border-radius: 10px;
+    width: 900px;
+    height: 2050px;
+    overflow: hidden;
+}
+
+section{
+    width: 100%;
+    height: 200px;
+    color: rgb(255, 255, 255);
+
+}
+
+img{
+    width: 1200px;
+    height: 200px;
+    opacity: 0.3;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1000px;
+    height: 200px;
+    transform: rotate(-2deg);
+
+}
+.innerdiv{
+    position: relative;
+}
+
+.text-1{
+    position: absolute;
+    top:30px;
+    padding: 0px 150px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border{
+    border: 4px solid white;
+    width: 800px;
+    height: 1990px;
+    z-index: 1000;
+
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+/* common */
+
+.section-3 img{
+ opacity: 0;
+}
+
+
+.section-10{
+    top:1950px;
+    margin-top: -200px;
+    color: black;
+}
+.section-10 .innerdiv{
+ position: relative;
+}
+
+.section-10 .text-2{
+ position: absolute;
+ margin-left: 20px;
+ top: 55px;
+ display: grid;
+ font-size: 20px;
+ grid-template-columns: 3fr 1fr;
+ grid-column-gap: 10px;
+
+ font-size: 18px;
+}
+
+
+.section-10 .img{
+    transform: rotate(-2deg);
+
+    background-color: rgb(150, 206, 255);
+    width: 200%;
+    height: 800px;
+
+}
+
+span{
+    font-size: 90px;
+    font-weight: lighter;
+    font-family: 'Moon Dance', cursive;
+}
+h6{
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.border{
+    position: relative;
+    z-index: 0;
+}
+.ifactory{
+    position: absolute;
+    color: white;
+    left: 300px;
+    top: -20px;
+    background-color: rgb(39, 2, 36);
+    padding: 0px 10px;
+
+}
+
+
+
+@media (max-width:800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        padding: 5px;
+        margin-bottom: 100px;
+    }
+    
+    /* common */
+    .container{
+        background-color: rgb(39, 2, 36);
+        border-radius: 10px;
+        width: 350px;
+        height: 1990px;
+        overflow: hidden;
+    }
+    
+    section{
+        width: 300px;
+        height: 200px;
+        color: rgb(255, 255, 255);
+    
+        
+    }
+    
+    img{
+        width: 1200px;
+        height: 200px;
+        opacity: 0.3;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        width: 1000px;
+        height: 200px;
+        transform: rotate(-2deg);
+    
+    }
+    .innerdiv{
+        position: relative;
+    }
+    
+    .text-1{
+        position: absolute;
+        top:35px;
+        padding: 0px 20px;
+        font-size: 11px;
+    }
+    
+    .section-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-1 {
+        padding-left: 15px;
+    }
+    
+    .border{
+        border: 4px solid white;
+        width: 330px;
+        height: 2015px;
+        z-index: 1000;
+    
+        margin-top: 25px;
+        margin-left:10px;
+        border-radius: 10px;
+
+        z-index: 0;
+
+    }
+    /* common */
+    
+    .section-3 img{
+     opacity: 0;
+    }
+    
+    
+    .section-10{
+        top:1950px;
+        margin-top: -200px;
+        color: black;
+    }
+    .section-10 .innerdiv{
+     position: relative;
+    }
+    
+    .section-10 .text-2{
+     position: absolute;
+     margin-left: 20px;
+     top: 30px;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-column-gap: 10px;
+
+     font-size: 10px;
+     
+    }
+    
+    
+    .section-10 .img{
+        transform: rotate(-2deg);
+    
+        background-color: aliceblue;
+        width: 200%;
+        height: 400px;
+    }
+    
+    span{
+        font-size: 70px;
+        font-weight: lighter;
+        font-family: 'Moon Dance', cursive;
+    }
+    h6{
+        letter-spacing: 5px;
+        line-height: 20px;
+    }
+
+    .ifactory{
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        left: 100px;
+        top: -15px;
+        background-color: rgb(39, 2, 36);
+        padding: 0px 10px;
+    
+    }
+    
+}
